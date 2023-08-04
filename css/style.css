@@ -1,0 +1,75 @@
+.exam
+{
+    width: 80%;
+    margin: 15%;
+    /* background-color: rgb(41, 41, 45); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.nav
+{
+    margin: 0;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nav .nav-link
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: rgba(62, 62, 62, 0.89);
+    font-size: 17px;
+    text-transform: none;
+    font-weight: 400;
+}
+.nav .nav-link i
+{
+    color: rgb(226, 121, 0);
+}
+.nav .nav-link.active
+{
+    background-color: rgb(0, 98, 255);
+    color: white;
+}
+.nav .nav-link.active i
+{
+    color: white;
+}
+#tab-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; 
+    
+}
+form
+{
+    margin:  0;
+}
+.result
+{
+    margin-top: 20px;
+    background-color: rgb(228, 255, 228);
+    padding: 15px;
+    border: solid 1px green;
+    border-radius: 5px;
+}
+button
+{   display: block;
+    margin-top: 20px;
+    background-color: rgb(0, 98, 255);
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+#bai2 button
+{
+    display: inline;
+}
+input
+{
+    width: 300px;
+    margin: 10px 5px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
