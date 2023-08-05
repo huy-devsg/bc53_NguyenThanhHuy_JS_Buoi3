@@ -105,7 +105,7 @@ function exchangeMoney() {
 
     // b3 : các dữ liệu đầu ra
     money = new Intl.NumberFormat('vn-VN').format(money);
-    document.getElementById('result3').innerText=`👉 ${money}`;
+    document.getElementById('result3').innerText=`👉 ${money} VND`;
 
 };
 // <--------------------------------------------------->
